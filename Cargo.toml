@@ -1,0 +1,13 @@
+[package]
+name = "simple-renderer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fermium = "22401.1.0"
+gl46 = "0.2.1"
+glam = "0.22.0"
+strum = { version = "0.24.1", features = ["derive"] }
+thiserror = "1.0.38"
